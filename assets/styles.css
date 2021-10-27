@@ -1,0 +1,133 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    ;
+}
+.navbar{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+    margin: 0px 10px;
+}
+select{
+    border:none;
+    margin-right: 30px;
+    
+}
+.menu{
+    display: flex;
+    
+    align-items: center;
+    
+    
+}
+div{
+    
+    margin-right: 30px;
+}
+.flag{
+    width: 15px;
+    height: 15px;
+    margin-right: 10px;
+    
+    
+    
+    
+}
+#india{
+    background-color: violet;
+    
+    width: 30px;
+}
+.b1{
+    padding:1px 30px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+    border: 2px solid rgb(255, 123, 0);
+}
+
+main{
+    background:url("https://wallpaperaccess.com/full/20996.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    max-height:100%;
+    
+    
+    
+}
+.home-page{
+    height: 100vh;
+    padding: 50px 100px;
+    background-color: #000000b3;
+    
+}
+h1{
+    font-size: 90px;
+    color: white;
+    font-family: Avenir-Next,Roboto,sans-serif
+}
+h3{
+    font-size: 33px;
+    color: white;
+    font-family: Avenir-Next,Roboto,sans-serif
+}
+/* main section */
+.b2,.b3,.b4{
+    margin-top:20px;
+    
+}
+.b2{
+    background-color: #4992ca;
+    border:none;
+    color:white;
+    padding:15px 85px;
+}
+.b3{
+    background-color: transparent;
+    border:2px solid white;
+    padding:15px 60px;
+    color:white;
+}
+.b4{
+    background-color: white;
+    padding:15px 10px 15px 10px;
+    border-radius: 15px;
+    border:none;
+    color:black;
+    
+}
+strong{
+    color:black;
+    
+}
+.pocket{
+    background-color:  #4992ca;
+    height: 100vh;
+    text-align:center;
+    padding:20px 100px;
+    color:white;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.monsters{
+    display: flex;
+    flex-wrap: nowrap;
+    margin-top: 20px;
+    
+}
+p{
+    margin-top: 20px;
+}
+h2{
+    font-size : 45px;
+}
+h4{
+    margin-top: 30px;
+    font-size : 30px;
+}
+i{
+    font-size: 40px;
+}
