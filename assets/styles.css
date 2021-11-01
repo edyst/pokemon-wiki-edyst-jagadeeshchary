@@ -5,12 +5,15 @@
     ;
 }
 .navbar{
-    /* background-color: aquamarine; */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 50px;
     margin: 0px 10px;
+}
+.logo{
+    width: 100px;
 }
 select{
     border:none;
@@ -50,20 +53,23 @@ div{
 }
 
 main{
-    background:url("https://wallpaperaccess.com/full/20996.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-
-    max-height:100%;
     
+    display: grid;
     
+      
     
 }
 .home-page{
-    height: 100vh;
-    padding: 50px 100px;
+    background:url("./b.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+     
+}
+#hpage{
     background-color: #000000b3;
-    
+    height: 100%;
+    padding: 50px 100px; 
 }
 h1{
     font-size: 90px;
@@ -106,12 +112,14 @@ strong{
 }
 .pocket{
     background-color:  #4992ca;
-    height: 100vh;
+    height: 100%;
     text-align:center;
     padding: 20px 125px;
     color:white;
     font-family: Avenir-Next,Roboto,sans-serif;
+    
 }
+
 .monsters{
     display: flex;
     flex-wrap: nowrap;
@@ -138,7 +146,7 @@ i{
 .statistics{
     
     text-align: center;
-    height: 100vh;
+    height: 100%;
     padding: 20px 125px;
     font-family: Avenir-Next,Roboto,sans-serif;
 
@@ -146,22 +154,27 @@ i{
 .stats{
     
     display: flex;
-
-    
-    
+   
 }
 
 .statimg{
-    width:100%;
+    margin-top: 10px;
+    width:80%;
+    height: 250px;
+    
+    
 }
-.pyr{
+.data{
     
     text-align: center;
-    height: 100vh;
-    padding: 0px 125px;
+    height: 100%;
+    padding: 20px 125px;
     font-family: Avenir-Next,Roboto,sans-serif;
     font-weight: 100;
     
+}
+.pyr{
+    text-align: center;
 }
 .row1,.row2,.row3,.row4{
     
@@ -169,7 +182,28 @@ i{
     align-items: flex-start;
     color:  #8a8a8a;
     
+    
+    
 }
-.data{
+#text{
+    
+    
+    text-align: left;
+    margin-top: 0;
+}
+.pokimg{
    
+    width:150px;
+    height: 100%;
+    
+}
+#font{
+    
+    font-weight: 100;
+    color: #6b6b6b;
+    margin-top: 0;
+}
+.fm{
+   
+    
 }
