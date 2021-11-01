@@ -108,7 +108,7 @@ strong{
     background-color:  #4992ca;
     height: 100vh;
     text-align:center;
-    padding:20px 100px;
+    padding: 20px 125px;
     color:white;
     font-family: Avenir-Next,Roboto,sans-serif;
 }
@@ -116,6 +116,7 @@ strong{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 20px;
+    
     
 }
 p{
@@ -128,6 +129,47 @@ h4{
     margin-top: 30px;
     font-size : 30px;
 }
+h6{
+    font-size: 18px;
+}
 i{
     font-size: 40px;
+}
+.statistics{
+    
+    text-align: center;
+    height: 100vh;
+    padding: 20px 125px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+
+}
+.stats{
+    
+    display: flex;
+
+    
+    
+}
+
+.statimg{
+    width:100%;
+}
+.pyr{
+    
+    text-align: center;
+    height: 100vh;
+    padding: 0px 125px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    font-weight: 100;
+    
+}
+.row1,.row2,.row3,.row4{
+    
+    display: flex;
+    align-items: flex-start;
+    color:  #8a8a8a;
+    
+}
+.data{
+   
 }
