@@ -160,7 +160,7 @@ i{
 .statimg{
     margin-top: 10px;
     width:80%;
-    height: 250px;
+    height: 50vh;
     
     
 }
@@ -173,6 +173,7 @@ i{
     font-weight: 100;
     
 }
+/* pokemon of the year */
 .pyr{
     text-align: center;
 }
@@ -203,7 +204,66 @@ i{
     color: #6b6b6b;
     margin-top: 0;
 }
-.fm{
-   
+/* Q & A */
+.qna{
+    background-color: #4992ca;
+    color:white;
     
+    text-align: center;
+    padding: 50px 125px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+.q-a{
+    
+    text-align: left;
+    
+}
+ul{
+    list-style-type: circle;
+    list-style-position: outside;
+    margin-left: 110px;
+    line-height: 25px;
+    font-weight: 100;
+}
+ol{
+    list-style-position: inside;
+}
+/* Pokemon battles section */
+.battle-section{
+    height: 100vh;
+    text-align: center;
+    padding:50px 0px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+table{
+    
+    border-collapse: collapse;
+    
+}
+td,th {
+    text-align: left;
+    padding: 12px;
+    border: 1px solid #dddddd;
+}
+td {
+    color: #8a8a8a;
+  }
+.pokemon-battles{
+    display: flex;
+    text-align: left;
+    padding: 10px 125px;
+    
+    
+}
+.g1{
+    line-height: 25px;
+    width:40%;
+    
+}
+.g2{
+   width:100%;
+    
+}
+.pokp{
+    color: #8a8a8a;
 }
