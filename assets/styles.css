@@ -27,7 +27,7 @@ select{
     
     
 }
-div{
+.navtitles{
     
     margin-right: 30px;
 }
@@ -73,13 +73,16 @@ main{
 }
 h1{
     font-size: 90px;
-    color: white;
+    
     font-family: Avenir-Next,Roboto,sans-serif
 }
 h3{
     font-size: 33px;
-    color: white;
+    
     font-family: Avenir-Next,Roboto,sans-serif
+}
+#title{
+    color: white;
 }
 /* main section */
 .b2,.b3,.b4{
@@ -112,7 +115,7 @@ strong{
 }
 .pocket{
     background-color:  #4992ca;
-    height: 100%;
+    height: 110vh;
     text-align:center;
     padding: 20px 125px;
     color:white;
@@ -124,17 +127,28 @@ strong{
     display: flex;
     flex-wrap: nowrap;
     margin-top: 20px;
+    grid-gap:10px;
     
     
 }
-p{
+.pocp,.statp{
+    color:#f3f3f3;
+}
+.statp{
+    
+    margin-top: 30px;
+}
+.pocp{
     margin-top: 20px;
 }
 h2{
     font-size : 45px;
 }
-h4{
+.monh{
     margin-top: 30px;
+}
+h4{
+    
     font-size : 30px;
 }
 h6{
@@ -142,20 +156,30 @@ h6{
 }
 i{
     font-size: 40px;
+    margin-top: 20px;
 }
 .statistics{
     
     text-align: center;
-    height: 100%;
+    
     padding: 20px 125px;
     font-family: Avenir-Next,Roboto,sans-serif;
 
 }
+
 .stats{
     
     display: flex;
+    
+    grid-gap: 40px;
+    
+    
    
 }
+.gop{
+    margin-top: 40px;
+}
+
 
 .statimg{
     margin-top: 10px;
@@ -175,6 +199,7 @@ i{
 }
 /* pokemon of the year */
 .pyr{
+    padding: 20px 0px;
     text-align: center;
 }
 .row1,.row2,.row3,.row4{
@@ -182,7 +207,7 @@ i{
     display: flex;
     align-items: flex-start;
     color:  #8a8a8a;
-    
+    grid-gap: 40px;
     
     
 }
@@ -194,8 +219,9 @@ i{
 }
 .pokimg{
    
-    width:150px;
-    height: 100%;
+    width:175px;
+    /* height: 100%; */
+    border-radius: 75%;
     
 }
 #font{
@@ -230,9 +256,10 @@ ol{
 }
 /* Pokemon battles section */
 .battle-section{
-    height: 100vh;
+    height: 100%;
     text-align: center;
-    padding:50px 0px;
+    padding:20px 125px;
+    
     font-family: Avenir-Next,Roboto,sans-serif;
 }
 table{
@@ -240,30 +267,165 @@ table{
     border-collapse: collapse;
     
 }
-td,th {
+.td1,th {
     text-align: left;
     padding: 12px;
     border: 1px solid #dddddd;
 }
-td {
+.td1 {
     color: #8a8a8a;
+    text-align: left;
   }
 .pokemon-battles{
     display: flex;
+    margin:20px 0px;
     text-align: left;
-    padding: 10px 125px;
+    grid-gap: 20px;
+    
     
     
 }
 .g1{
-    line-height: 25px;
-    width:40%;
+    line-height: 30px;
+    flex:1;
     
 }
 .g2{
-   width:100%;
+   flex:2;
     
 }
 .pokp{
     color: #8a8a8a;
+}
+.b5{
+    background-color:#4992ca;
+    color: white;
+    border: none;
+    padding:10px 70px;
+    font-weight: 700;
+}
+.pbuy{
+    color:#4992ca;
+    font-weight: 600;
+}
+
+/* know more */
+.know-more{
+    background-color: #424242;
+    color: white;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    text-align: center;
+    padding: 50px 125px;
+}
+.b6{
+    background-color:transparent;
+    border: 2px solid white;
+    color: white;
+    font-weight: 600;
+    padding:15px 80px;
+    
+}
+button:hover{
+    
+    cursor: pointer;
+}
+
+/* Pokemon card */
+.card{
+    text-align: center;
+    padding: 20px 100px;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    color: #8a8a8a;
+}
+#tcard{
+    
+    margin: auto;
+    width: 200px;
+   
+}
+td{
+    text-align: center;
+    border: 1px solid #dddddd;
+    
+}
+#t1{
+    
+    border-top: 1px solid #4992ca;
+    background-color: #4992ca;
+    padding: 0px;
+}
+#info{
+    color: black;
+    padding: 20px 10px;
+}
+#t2{
+    background-color: #f3f3f3;
+    padding: 10px;
+    color: #8a8a8a;
+}
+#info1{
+    color: black;
+}
+/* pokemon trainers */
+.trainer{
+    background-color:  #4992ca;
+    
+    text-align:center;
+    padding: 50px 100px;
+    color:#f3f3f3;
+    font-family: Avenir-Next,Roboto,sans-serif;
+}
+
+#name{
+    color:white;
+    margin-top: 0;
+    font-weight: 100;
+    width: 175px;
+}
+.row5,.row6,.row7,.row8{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 40px;
+    column-gap:40px;
+
+}
+    
+
+.poklog{
+    width:150px;
+}
+
+/* generation cards */
+.gen-cards{
+    text-align: center;
+    color:#8a8a8a;
+    font-family: Avenir-Next,Roboto,sans-serif;
+    padding: 20px 125px;
+}
+.cards-container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 1fr 1fr;
+    padding:20px 50px;
+    
+    
+}
+
+#td2,#td3{
+    text-align: left;
+}
+#td2{
+    background-color: #f3f3f3;
+    padding: 10px;
+    color: black;
+    line-height: 60px;
+}
+#td3{
+    line-height: 30px;
+    padding:10px;
+    height: 50ch;
+}
+.carp{
+    
+    height: 100%;
 }
