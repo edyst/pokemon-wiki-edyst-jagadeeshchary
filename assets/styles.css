@@ -101,8 +101,8 @@ h3{
     padding:15px 85px;
 }
 .b3{
-    background-color: transparent;
-    border:2px solid white;
+    background-color: #0000;
+    border:2px solid #fff;
     padding:15px 60px;
     color:white;
 }
@@ -323,8 +323,8 @@ table{
     padding: 50px 125px;
 }
 .b6{
-    background-color:transparent;
-    border: 2px solid white;
+    background-color:#0000;
+    border: 2px solid #fff;
     color: white;
     font-weight: 600;
     padding:15px 80px;
@@ -531,6 +531,7 @@ td{
 .logop{
     color:black;
 }
+/* know more */
 .more{
     text-align: center;
     background-color: #4992ca;
@@ -538,10 +539,10 @@ td{
     padding:20px 0px 20px 0px;
 }
 .b8{
-    background-color: transparent;
+    background-color: #0000;
     padding:10px 80px;
     color: white;
-    border: 1px solid white;
+    border: 2px solid #fff;
 }
 .foot{
     display: flex;
