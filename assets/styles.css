@@ -5,51 +5,41 @@
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
-
-   
-    ;
+}
+main,footer{
+    display:grid;
 }
 .navbar{
-    
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     align-items: center;
+    grid-template-columns: 1fr 1fr;
     height: 50px;
     margin: 0px 10px;
+}
+.drop{
+    border: none;
+
 }
 .logo{
     width: 100px;
 }
-select{
-    border:none;
-    margin-right: 30px;
-    
+.menu-names{
+    text-decoration: none;
+    color: black;
 }
-.menu{
+.menubar{
     display: flex;
-    
     align-items: center;
+    justify-content: space-between;
+    width:800px;
     
-    
-}
-.navtitles{
-    
-    margin-right: 30px;
+
 }
 .flag{
     width: 15px;
-    height: 15px;
-    margin-right: 10px;
-    
-    
-    
-    
+    height: 18px;
 }
-#india{
-    background-color: violet;
-    
-    width: 30px;
-}
+
 .b1{
     padding:1px 30px;
     background-color: rgb(255, 123, 0);
@@ -57,13 +47,7 @@ select{
     border: 2px solid rgb(255, 123, 0);
 }
 
-main{
-    
-    display: grid;
-    
-      
-    
-}
+
 .home-page{
     background:url("./b.jpeg");
     background-repeat: no-repeat;
@@ -249,7 +233,7 @@ i{
     text-align: left;
     
 }
-ul{
+.ulq{
     list-style-type: circle;
     list-style-position: outside;
     margin-left: 110px;
@@ -544,12 +528,17 @@ td{
     color: white;
     border: 2px solid #fff;
 }
-.foot{
-    display: flex;
-    justify-content: space-evenly;
+/* footer */
+
+.footer{
     text-align: center;
     background-color: rgb(0, 18, 28);
     padding: 20px 100px;
+    
+}
+.footsection{
+    display: flex;
+    justify-content: space-evenly;  
 }
 .flinks{
     text-decoration: none;
